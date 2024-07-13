@@ -55,17 +55,17 @@
     width: 263px;
     font-size: 18px;
     line-height: 1.5;
+    font-style: normal; 
 }
 
 address {
     display: flex;
     justify-content: end;
-    font-style: normal; 
+    
 }
 
 .main {
     position: relative;
-    z-index: -1;  
 }
 
 .cover {
@@ -73,7 +73,6 @@ address {
     flex-direction: column;
     justify-content: space-between;
     width: 1100px;
-    height: 757px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -81,7 +80,6 @@ address {
     color: #FFF;
     position: relative;
     inset: 0;
-    z-index: -1;
 }
 
 .overley {
@@ -101,19 +99,17 @@ address {
     font-size: 67px;
     text-transform: uppercase;
     letter-spacing: 0.45em;
-    position: relative;
-    top: 0;
     z-index: 1;
 }
 
 .aligned-text_center {
-    display: inline-block;
+    display: block;
     width: 100%;
     text-align: center;
 }
 
 .aligned-text_right {
-    display: inline-block;
+    display: block;
     width: 100%;
     text-align: right;
     padding-bottom: 5px;
@@ -137,8 +133,6 @@ address {
     font-size: 22px;         
     text-transform: uppercase;
     word-spacing: 18px;
-    position: relative;
-    bottom: 0;
     z-index: 1;
 }
 
@@ -160,12 +154,12 @@ address {
     background-color: rgba(0, 0, 0, 0);
 }
 
- .lots {
+.lots {
     width: 1052px;
     margin: 180px 24px 0 24px;
 }
 
- .lots__heading {
+.lots__heading {
     text-transform: uppercase;
     font-size: 40px;
     margin-left: 39px;
@@ -174,14 +168,14 @@ address {
     letter-spacing: 2px;
 }
 
- .lots__card-list {
+.lots__card-list {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
     gap: 25px;
 }
 
- .lots__card-list-item {
+.lots__card-list-item {
     position: relative;
     bottom: 0;
     z-index: 1;   
@@ -202,7 +196,7 @@ address {
 }
 
  
- .card__title {
+.card__title {
     display: flex;
     text-transform: uppercase;
     text-decoration: underline;
@@ -214,7 +208,7 @@ address {
     z-index: 1;
 }  
 
- .card__text {
+.card__text {
     display: flex;
     font-size: 20px;
     line-height: 24px;
@@ -224,19 +218,19 @@ address {
     z-index: 1;
 }
 
- .card_type_film {
+.card_type_film {
     background-image: url(../images/card-lot-01.jpg);
 }
 
- .card_type_book {
+.card_type_book {
     background-image: url(../images/card-lot-02.jpg);
 }
 
- .card_type_picture {
+.card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
 }
 
- .lots__look-more-link {
+.lots__look-more-link {
     display: block;
     margin-left: 40px;
     margin-top: 29px;
@@ -244,7 +238,7 @@ address {
     text-underline-offset: 20%;
 }
 
- .about {
+.about {
     display: grid;
     grid-template-columns: 335px 717px;
     grid-template-rows: 13.9fr 7fr 9fr;
@@ -252,7 +246,7 @@ address {
     margin: 140px 24px 0 24px;
 }
 
- .about__logo {
+.about__logo {
     width: 240px;
     height: 240px;
     border-radius: 50%;
@@ -270,7 +264,7 @@ address {
     margin-left: 50px;
 }
 
- .about__title {
+.about__title {
     display: block;
     margin-top: 144px;
     margin-left: 25px;
@@ -280,11 +274,10 @@ address {
     letter-spacing: 0.8px
 }
 
- .about-text {
+.about-text {
     font-size: 20px;
     margin-top: 8px;
     margin-left: 20px;
-    
     line-height: 1.25;
 }
 
@@ -296,7 +289,7 @@ address {
     margin: 173px 50px 88px 50px;
 }
 
- .footer__menu {
+.footer__menu {
     display: flex;
     flex-direction: column;
     font-size: 19px;       
@@ -304,13 +297,13 @@ address {
 
  
 
-  .footer__menu-list-item {
+.footer__menu-list-item {
     display: flex;
     justify-content: center;
     
 }
 
- .footer__menu-link_active {
+.footer__menu-link_active {
     text-decoration: none;
 }
 
@@ -319,11 +312,10 @@ address {
     display: flex;
     justify-content: space-between;
     width: 240px;
-    height: 48px;
     list-style: none;
 }
 
- .footer__social-icon {
+.footer__social-icon {
     width: 48px;
     height: 48px; 
 }
